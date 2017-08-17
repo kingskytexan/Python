@@ -20,3 +20,6 @@ def average(num1, num2):
 
 avg = average(2, 6)
 print(avg)
+
+
+
