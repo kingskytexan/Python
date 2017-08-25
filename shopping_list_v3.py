@@ -53,6 +53,15 @@ def show_list():
     print("-" * 10)
 
 
+def remove_from_list():
+    show_list()
+    want_to_remove = input("What would you like to remove?/n> ")
+    try:
+       shopping_list.remove(want_to_remove)
+    except ValueError:
+        pass
+    show_list()
+
 show_help()
 
 while True:
