@@ -25,7 +25,7 @@ def add_to_list(item):
     if len(shopping_list):
         position = input("Where should I add {}?\n"
                          "Press ENTER to add to the end of the list\n"
-                         "> ",format(item))
+                         "> ", format(item, item))
     else:
         position = 0
     try:
